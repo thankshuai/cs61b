@@ -4,6 +4,9 @@ import javax.swing.plaf.TreeUI;
  *  @author zhangshuai
  */
 public class LeapYear {
+    /** determin if the given year is a leap year
+     * @param year to be analyzed
+     */
     public static boolean isLeapYear(int year){
         if (year % 400 == 0){
             return true;
